@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul li, nav h1{
+    display: inline;
+    padding: 16px;
+    color: #fff;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav h1{
+    font-size: 2em;
+}
+
+.mainSobre{
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+.sobre img, .sobre h2{
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    column-gap: 1%;
+}
+
+ul li{
+    color: black;
+}
+
+button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:850px){
+    .container{
+        width:90%
+    }
+    .mainSobre{
+        display: block;
+    }
+    .sobre h2{
+        max-width: 100%;
+        margin: 30px 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        margin: 0 auto;
+    }
+    nav{
+        display: block;
+        
+    }
+}
