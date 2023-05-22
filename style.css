@@ -13,7 +13,7 @@
 
 ul li, nav h1{
     display: inline;
-    padding: 16px;
+    padding: 26px;
     color: #fff;
 }
 
@@ -25,7 +25,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 nav h1{
@@ -55,7 +54,7 @@ ul{
     column-gap: 1%;
 }
 
-ul li{
+.produtos li{
     color: black;
 }
 
@@ -89,7 +88,7 @@ button{
         margin: 0 auto;
     }
     nav{
-        display: block;
-        
+        display: flex;
+        flex-direction: column;
     }
 }
