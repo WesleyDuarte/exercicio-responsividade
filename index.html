@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+    <link rel="stylesheet" href="./lib/bootstrapCDN.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/05/29/18/07/grasses-8026782_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2>foto de mato</h2>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/05/27/11/12/naxos-8021321_1280.jpg" >
+                    <div class="carousel-caption">
+                        <h2>foto de porto</h2>
+                    </div>    
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/01/07/21/winter-landscape-7891462_1280.jpg">
+                    <div class="carousel-caption">
+                        <h2>foto de neve</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#carousel-exemplo" data-bs-slide="prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel-exemplo" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-lg">
+                <article class="card">
+                    <div class="card-header">
+                        CARD 1
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_1280.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Primeiro Card</h4>
+                        <h5 class="card-subtitle">Testando layout</h5>
+                        <p class="card-text">Estes cards apresentam imagem, titulo, subtitulo, conteudo e botão</p>
+                        <a href="#" class="btn btn-primary">botao</a> 
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg">
+                <article class="card">
+                    <div class="card-header">
+                        CARD 2
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_1280.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Segundo Card</h4>
+                        <h5 class="card-subtitle">Testando layout</h5>
+                        <p class="card-text">Estes cards apresentam imagem, titulo, subtitulo, conteudo e botão</p>
+                        <a href="#" class="btn btn-primary">botao</a> 
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg">
+                <article class="card">
+                    <div class="card-header">
+                        CARD 3
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_1280.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <h4 class="card-title">Terceiro Card</h4>
+                        <h5 class="card-subtitle">Testando layout</h5>
+                        <p class="card-text">Estes cards apresentam imagem, titulo, subtitulo, conteudo e botão</p>
+                        <a href="#" class="btn btn-primary">botao</a> 
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrapCDNjs.js"></script>
+</body>
+</html>
